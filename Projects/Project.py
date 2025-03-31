@@ -20,3 +20,4 @@ s3 = codesters.Sprite ("Brandy", 100, -100)
 s3.set_size(0.05)
 s4 = codesters.Sprite ("Starbucks", -100, 100)
 s4.set_size(0.2)
+
