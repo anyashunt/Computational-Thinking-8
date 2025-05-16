@@ -5,7 +5,7 @@ from codesters import StageClass
 stage = StageClass()
 ###############################################
 
-stage.set_background("")
+stage.set_background("winter")
 
 q1 = codesters.Square (100, 100, 200, 'LightYellow')
 q2 = codesters.Square (-100, 100, 200, 'Honeydew')
@@ -21,3 +21,5 @@ s3.set_size(0.05)
 s4 = codesters.Sprite ("Starbucks", -100, 100)
 s4.set_size(0.2)
 
+message1 = codesters.Text ("Anya Hunt",0,220,"White")
+message2 = codesters.Text ("Idk what to put here",0,-220,"Cornflowerblue")
